@@ -1,0 +1,3 @@
+This directory contains the actual contents of the SpecJBB 2005 Version 1.07 installation CD.
+
+Run "java -jar setup.jar" to install in your chosen directory

@@ -1,0 +1,1 @@
+cmd_/scratch/mcache/hotplug/mcache.ko := ld -r -m elf_x86_64 -T /scratch/mcache/linux-3.4.1/scripts/module-common.lds --build-id  -o /scratch/mcache/hotplug/mcache.ko /scratch/mcache/hotplug/mcache.o /scratch/mcache/hotplug/mcache.mod.o

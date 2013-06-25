@@ -1,0 +1,10 @@
+(Jul 7, 2009 9:19:17 AM), Install, com.installshield.product.service.product.PureJavaProductServiceImpl$Installer, err, ProductException: (error code = 601; message="JVM not found")
+STACK_TRACE: 8
+ProductException: (error code = 601; message="JVM not found")
+	at com.installshield.product.actions.JVMResolution.install(Unknown Source)
+	at com.installshield.product.service.product.PureJavaProductServiceImpl$InstallProduct.checkUninstallerJVMResolution(Unknown Source)
+	at com.installshield.product.service.product.PureJavaProductServiceImpl$InstallProduct.install(Unknown Source)
+	at com.installshield.product.service.product.PureJavaProductServiceImpl$Installer.execute(Unknown Source)
+	at com.installshield.wizard.service.AsynchronousOperation.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:619)
+

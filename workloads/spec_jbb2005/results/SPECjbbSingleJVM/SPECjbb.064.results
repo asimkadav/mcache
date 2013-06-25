@@ -1,0 +1,217 @@
+Opened results/SPECjbbSingleJVM/SPECjbb.064.results
+Opened results/SPECjbbSingleJVM/SPECjbb.064.raw
+
+Licensed Materials - Property of SPEC
+SPECjbb2005
+Copyright (c) 2005 Standard Performance Evaluation Corporation (SPEC),All rights reserved,
+
+Benchmark SPECjbb2005 1.07 now Opening
+
+jar validity is true
+
+
+Checking whether run will be valid
+
+Run will be COMPLIANT
+
+Constructing the company now   Hang....on
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Loading Warehouse 1...
+
+
+Loading Warehouse 2...
+
+
+Loading Warehouse 3...
+
+
+Loading Warehouse 4...
+
+
+Loading Warehouse 5...
+
+
+Loading Warehouse 6...
+
+
+Loading Warehouse 7...
+
+
+Loading Warehouse 8...
+
+
+Loading Warehouse 9...
+
+
+Loading Warehouse 10...
+
+
+Loading Warehouse 11...
+
+
+Loading Warehouse 12...
+
+
+Loading Warehouse 13...
+
+
+Loading Warehouse 14...
+
+
+Loading Warehouse 15...
+
+
+Loading Warehouse 16...
+
+
+Start User Threads
+  started user thread for Warehouse 1
+  started user thread for Warehouse 2
+  started user thread for Warehouse 3
+  started user thread for Warehouse 4
+  started user thread for Warehouse 5
+  started user thread for Warehouse 6
+  started user thread for Warehouse 7
+  started user thread for Warehouse 8
+  started user thread for Warehouse 9
+  started user thread for Warehouse 10
+  started user thread for Warehouse 11
+  started user thread for Warehouse 12
+  started user thread for Warehouse 13
+  started user thread for Warehouse 14
+  started user thread for Warehouse 15
+  started user thread for Warehouse 16
+Timing Measurement began Mon Dec 17 13:30:15 CST 2012 for 4 minutes
+Timing Measurement ended Mon Dec 17 13:34:15 CST 2012
+
+
+Calculating results
+
+Minimum transactions by a warehouse = 2059470
+Maximum transactions by a warehouse = 2150423
+Difference (thread spread) = 90953 (4.23%)
+
+===============================================================================
+TOTALS FOR: COMPANY with 16 warehouses                                  
+................. SPECjbb2005 1.07 Results (time in seconds) .................
+                   Count     Total    Min     Max     Avg    Heap Space
+    New Order:  14739474   1317.06   0.000   1.082   0.000   total     1456.4MB
+      Payment:  10164452    492.47   0.000   1.085   0.000    used      765.7MB
+  OrderStatus:   1016444     63.03   0.000   1.086   0.000
+     Delivery:   1016442   1141.39   0.000   1.089   0.001
+  Stock Level:   1016441     98.16   0.000   1.070   0.000
+  Cust Report:   5589407    637.79   0.000   1.073   0.000
+
+           throughput =     139761.08 SPECjbb2005 bops 
+
+
+Calling Reporter
+SPECjbb2005 bops = n/a, SPECjbb2005 bops/JVM = n/a
+
+Neptune Ocean King Systems TurboBlaster 2
+Phobos Ltd Phobic Java 1.5.0
+SPEC license # 50,  Tested by: Neptune Corp.,  Test date: Dec 17, 2012
+
+Validity
+INVALID: Missing point: 1 required for publication; all points up to the peak, 4, are required.
+INVALID: Missing point: 2 required for publication; all points up to the peak, 4, are required.
+INVALID: Missing point: 3 required for publication; all points up to the peak, 4, are required.
+INVALID: all points up to the peak are required
+Warning: Missing point: 0 will used for point 4.
+Warning: Missing point: 0 will used for point 5.
+Warning: Missing point: 0 will used for point 6.
+Warning: Missing point: 0 will used for point 7.
+Warning: Missing point: 0 will used for point 8.
+
+                   SPEC scores                                                                                        
+     Warehouses               Thrput
+             16               139761
+                                    
+Throughput      n/a                 
+
+HARDWARE                                            | SOFTWARE                                                         
+Vendor                    Neptune Ocean King        | Vendor               Phobos Ltd                                  
+                          Systems                   | Vendor URL           http://www.phobos.uk.co                     
+Vendor URL                http://www.neptune.com    | JVM Version          Phobic Java 1.5.0                           
+Model                     TurboBlaster 2            | Command Line         java -ms256m -mx1024m -spec.jbb.JBBmain     
+Processor                 ARM                       |                      -propfile Test1                             
+MHz                       300                       | Initial Heap Mem     256                                         
+# of Chips                1                         | (MB)                                     
+# of Cores                2                         | Max Heap Mem (MB)    1024                                        
+# of Cores/Chip           2                         | JVM addressing bits  32                                          
+HW Threading Enabled      No                        | JVM CLASSPATH        ./jbb.jar:./check.jar:                      
+Procs avail to Java       4                         | JVM BOOTCLASSPATH    /usr/java/packages/lib/amd64:/usr/lib64:/lib
+Memory (MB)               4096                      |                      64:/lib:/usr/lib                            
+Memory Details            punch cards               | OS Version           Phobos DOS V33.333 patch-level 78           
+L1 Cache                  4KBI+4KBD                 | Other S/W            Neptune JIT Accelerator 2.3b6               
+L2 Cache                  64KB(I+D) off chip        |                                                                  
+Other Cache                                         | AOT Compilation Details                                          
+Filesystem                UFS                       | <p>precompiled code                                              
+Disks                     1 x 4GB SCSI (classes) 1  | for<ul><li>Deliverytransaction.process</li><li>TransactionManager
+                          x 12GB SCSI (OS)          | .go</li></ul>loaded at startup</p>                               
+Other H/W                 AT&T Rotary Telephone     |                                                                  
+                                                    | TUNING AND NOTES                                                 
+                                                    | Operating system                                                 
+                                                    | tunings<UL><LI>bufcache=1024</LI><LI>maxthreads_per_user=65536</L
+                                                    | I></UL>                                                          
+                                                    | "Notes here"                                                     
+                                                    |                                                                  
+                                                                                                                       
+TEST INFORMATION                     
+Tested by          Neptune Corp.     
+SPEC License       50                
+Test Location      Santa Monica, CA  
+Test Date          Dec 17, 2012      
+JVM available      Jan-2000          
+H/w available      Jan-2000          
+OS available       May-2000          
+Other s/w          Feb-2000          
+available                            
+*** Invalid Result
+This result is not valid for the following reason(s):
+INVALID: Missing point: 1 required for publication; all points up to the peak, 4, are required.
+INVALID: Missing point: 2 required for publication; all points up to the peak, 4, are required.
+INVALID: Missing point: 3 required for publication; all points up to the peak, 4, are required.
+INVALID: all points up to the peak are required
+Warning: Missing point: 0 will used for point 4.
+Warning: Missing point: 0 will used for point 5.
+Warning: Missing point: 0 will used for point 6.
+Warning: Missing point: 0 will used for point 7.
+Warning: Missing point: 0 will used for point 8.
+INVALID run; Score is n/a
+
+
+
+* Details of Runs
+
+  Wh.   Score     Tot.     Used  Thread elapsed Trans.           Count Resp. Time (s)
+                  Heap     Heap  spread  > 120s Type                   total max     
+                  (MB)     (MB)%       %                                             
+   16  139761     1456      766    4.23   <0.01 new_order     14739474 1317  1.08    
+                                                payment       10164452 492   1.09    
+                                                order_status   1016444 63.0  1.09    
+                                                delivery       1016442 1141  1.09    
+                                                stock_level    1016441 98.2  1.07    
+                                                cust_report    5589407 638   1.07    
+
+SPECjbb2005 Version: [SPECjbb2005 1.07, March 15, 2006]
+Reporting page (C) Copyright SPEC, 2005. All rights reserved
+
+Output files: results/SPECjbbSingleJVM/SPECjbb.064.txt, results/SPECjbbSingleJVM/SPECjbb.064.raw, results/SPECjbbSingleJVM/SPECjbb.064.html
+
+
+Reporter messages:
+INVALID: Missing point: 1 required for publication; all points up to the peak, 4, are required.
+INVALID: Missing point: 2 required for publication; all points up to the peak, 4, are required.
+INVALID: Missing point: 3 required for publication; all points up to the peak, 4, are required.
+INVALID: all points up to the peak are required
+Warning: Missing point: 0 will used for point 4.
+Warning: Missing point: 0 will used for point 5.
+Warning: Missing point: 0 will used for point 6.
+Warning: Missing point: 0 will used for point 7.
+Warning: Missing point: 0 will used for point 8.
+INVALID run; Score is  n/a
+

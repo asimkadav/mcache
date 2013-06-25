@@ -1,0 +1,71 @@
+Jul 7, 2009 10:33:43 AM spec.jbb.JBBmain main -> INFO: Logging started
+Jul 7, 2009 10:33:43 AM spec.jbb.Company primeWithDummyData -> INFO: Loading Warehouse 1...
+Jul 7, 2009 10:33:43 AM spec.jbb.JBBmain DoARun -> INFO: Start User Threads
+Jul 7, 2009 10:33:43 AM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 1
+Jul 7, 2009 10:33:43 AM spec.jbb.Company displayResultTotals -> INFO: Timing Measurement began Tue Jul 07 10:33:43 CDT 2009 for 0.5 minutes
+Jul 7, 2009 10:34:13 AM spec.jbb.Company displayResultTotals -> INFO: Timing Measurement ended Tue Jul 07 10:34:13 CDT 2009
+Jul 7, 2009 10:34:13 AM spec.jbb.Company primeWithDummyData -> INFO: Loading Warehouse 2...
+Jul 7, 2009 10:34:14 AM spec.jbb.JBBmain DoARun -> INFO: Start User Threads
+Jul 7, 2009 10:34:14 AM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 1
+Jul 7, 2009 10:34:14 AM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 2
+Jul 7, 2009 10:34:14 AM spec.jbb.Company displayResultTotals -> INFO: Timing Measurement began Tue Jul 07 10:34:14 CDT 2009 for 0.5 minutes
+Jul 7, 2009 10:34:44 AM spec.jbb.Company displayResultTotals -> INFO: Timing Measurement ended Tue Jul 07 10:34:44 CDT 2009
+Jul 7, 2009 10:34:44 AM spec.jbb.Company primeWithDummyData -> INFO: Loading Warehouse 3...
+Jul 7, 2009 10:34:44 AM spec.jbb.JBBmain DoARun -> INFO: Start User Threads
+Jul 7, 2009 10:34:44 AM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 1
+Jul 7, 2009 10:34:44 AM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 2
+Jul 7, 2009 10:34:44 AM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 3
+Jul 7, 2009 10:34:44 AM spec.jbb.Company displayResultTotals -> INFO: Timing Measurement began Tue Jul 07 10:34:44 CDT 2009 for 0.5 minutes
+Jul 7, 2009 10:35:14 AM spec.jbb.Company displayResultTotals -> INFO: Timing Measurement ended Tue Jul 07 10:35:14 CDT 2009
+Jul 7, 2009 10:35:14 AM spec.jbb.Company primeWithDummyData -> INFO: Loading Warehouse 4...
+Jul 7, 2009 10:35:14 AM spec.jbb.JBBmain DoARun -> INFO: Start User Threads
+Jul 7, 2009 10:35:14 AM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 1
+Jul 7, 2009 10:35:14 AM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 2
+Jul 7, 2009 10:35:14 AM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 3
+Jul 7, 2009 10:35:14 AM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 4
+Jul 7, 2009 10:35:14 AM spec.jbb.Company displayResultTotals -> INFO: Timing Measurement began Tue Jul 07 10:35:14 CDT 2009 for 4 minutes
+Jul 7, 2009 10:39:14 AM spec.jbb.Company displayResultTotals -> INFO: Timing Measurement ended Tue Jul 07 10:39:14 CDT 2009
+Jul 7, 2009 10:39:14 AM spec.jbb.Company primeWithDummyData -> INFO: Loading Warehouse 5...
+Jul 7, 2009 10:39:14 AM spec.jbb.JBBmain DoARun -> INFO: Start User Threads
+Jul 7, 2009 10:39:14 AM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 1
+Jul 7, 2009 10:39:14 AM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 2
+Jul 7, 2009 10:39:14 AM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 3
+Jul 7, 2009 10:39:14 AM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 4
+Jul 7, 2009 10:39:14 AM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 5
+Jul 7, 2009 10:39:14 AM spec.jbb.Company displayResultTotals -> INFO: Timing Measurement began Tue Jul 07 10:39:14 CDT 2009 for 4 minutes
+Jul 7, 2009 10:43:14 AM spec.jbb.Company displayResultTotals -> INFO: Timing Measurement ended Tue Jul 07 10:43:14 CDT 2009
+Jul 7, 2009 10:43:15 AM spec.jbb.Company primeWithDummyData -> INFO: Loading Warehouse 6...
+Jul 7, 2009 10:43:15 AM spec.jbb.JBBmain DoARun -> INFO: Start User Threads
+Jul 7, 2009 10:43:15 AM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 1
+Jul 7, 2009 10:43:15 AM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 2
+Jul 7, 2009 10:43:15 AM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 3
+Jul 7, 2009 10:43:15 AM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 4
+Jul 7, 2009 10:43:15 AM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 5
+Jul 7, 2009 10:43:15 AM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 6
+Jul 7, 2009 10:43:15 AM spec.jbb.Company displayResultTotals -> INFO: Timing Measurement began Tue Jul 07 10:43:15 CDT 2009 for 4 minutes
+Jul 7, 2009 10:47:15 AM spec.jbb.Company displayResultTotals -> INFO: Timing Measurement ended Tue Jul 07 10:47:15 CDT 2009
+Jul 7, 2009 10:47:15 AM spec.jbb.Company primeWithDummyData -> INFO: Loading Warehouse 7...
+Jul 7, 2009 10:47:15 AM spec.jbb.JBBmain DoARun -> INFO: Start User Threads
+Jul 7, 2009 10:47:15 AM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 1
+Jul 7, 2009 10:47:15 AM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 2
+Jul 7, 2009 10:47:15 AM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 3
+Jul 7, 2009 10:47:15 AM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 4
+Jul 7, 2009 10:47:15 AM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 5
+Jul 7, 2009 10:47:15 AM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 6
+Jul 7, 2009 10:47:15 AM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 7
+Jul 7, 2009 10:47:15 AM spec.jbb.Company displayResultTotals -> INFO: Timing Measurement began Tue Jul 07 10:47:15 CDT 2009 for 4 minutes
+Jul 7, 2009 10:51:15 AM spec.jbb.Company displayResultTotals -> INFO: Timing Measurement ended Tue Jul 07 10:51:15 CDT 2009
+Jul 7, 2009 10:51:15 AM spec.jbb.Company primeWithDummyData -> INFO: Loading Warehouse 8...
+Jul 7, 2009 10:51:15 AM spec.jbb.JBBmain DoARun -> INFO: Start User Threads
+Jul 7, 2009 10:51:15 AM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 1
+Jul 7, 2009 10:51:15 AM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 2
+Jul 7, 2009 10:51:15 AM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 3
+Jul 7, 2009 10:51:15 AM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 4
+Jul 7, 2009 10:51:15 AM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 5
+Jul 7, 2009 10:51:15 AM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 6
+Jul 7, 2009 10:51:15 AM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 7
+Jul 7, 2009 10:51:15 AM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 8
+Jul 7, 2009 10:51:15 AM spec.jbb.Company displayResultTotals -> INFO: Timing Measurement began Tue Jul 07 10:51:15 CDT 2009 for 4 minutes
+Jul 7, 2009 10:55:15 AM spec.jbb.Company displayResultTotals -> INFO: Timing Measurement ended Tue Jul 07 10:55:15 CDT 2009
+Jul 7, 2009 10:55:15 AM spec.jbb.JBBmain callReporter -> INFO: Calling Reporter
+Jul 7, 2009 10:55:15 AM spec.jbb.JBBmain main -> INFO: Logging ended

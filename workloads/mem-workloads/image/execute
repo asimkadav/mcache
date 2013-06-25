@@ -1,0 +1,1 @@
+memtime "convert -resize 400% inp.bmp out.bmp"

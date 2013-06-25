@@ -1,0 +1,424 @@
+Opened results/SPECjbbSingleJVM/SPECjbb.003.results
+Opened results/SPECjbbSingleJVM/SPECjbb.003.raw
+
+Licensed Materials - Property of SPEC
+SPECjbb2005
+Copyright (c) 2005 Standard Performance Evaluation Corporation (SPEC),All rights reserved,
+
+Benchmark SPECjbb2005 1.07 now Opening
+
+fails validation because something is before jbb.jar in CLASSPATH
+
+
+Checking whether run will be valid
+
+Run will be COMPLIANT
+
+Constructing the company now   Hang....on
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Loading Warehouse 1...
+
+
+Start User Threads
+  started user thread for Warehouse 1
+Timing Measurement began Tue Jul 07 09:57:37 CDT 2009 for 0.5 minutes
+Timing Measurement ended Tue Jul 07 09:58:07 CDT 2009
+
+
+Calculating results
+
+Minimum transactions by a warehouse = 606812
+Maximum transactions by a warehouse = 606812
+Difference (thread spread) = 0 (0%)
+
+===============================================================================
+TOTALS FOR: COMPANY with 1 warehouses                                   
+................. SPECjbb2005 1.07 Results (time in seconds) .................
+                   Count     Total    Min     Max     Avg    Heap Space
+    New Order:    266630      8.98   0.000   0.067   0.000   total      506.9MB
+      Payment:    183883      3.46   0.000   0.030   0.000    used      140.8MB
+  OrderStatus:     18389      0.42   0.000   0.005   0.000
+     Delivery:     18388     10.36   0.000   0.006   0.001
+  Stock Level:     18389      1.03   0.000   0.005   0.000
+  Cust Report:    101133      4.86   0.000   0.035   0.000
+
+           throughput =      20227.07 SPECjbb2005 bops 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Loading Warehouse 2...
+
+
+Start User Threads
+  started user thread for Warehouse 1
+  started user thread for Warehouse 2
+Timing Measurement began Tue Jul 07 09:58:09 CDT 2009 for 0.5 minutes
+Timing Measurement ended Tue Jul 07 09:58:39 CDT 2009
+
+
+Calculating results
+
+Minimum transactions by a warehouse = 569660
+Maximum transactions by a warehouse = 584641
+Difference (thread spread) = 14981 (2.56%)
+
+===============================================================================
+TOTALS FOR: COMPANY with 2 warehouses                                   
+................. SPECjbb2005 1.07 Results (time in seconds) .................
+                   Count     Total    Min     Max     Avg    Heap Space
+    New Order:    507058     18.34   0.000   0.020   0.000   total      504.8MB
+      Payment:    349786      6.84   0.000   0.019   0.000    used      237.0MB
+  OrderStatus:     34978      0.88   0.000   0.009   0.000
+     Delivery:     34979     20.75   0.000   0.057   0.001
+  Stock Level:     34978      1.76   0.000   0.010   0.000
+  Cust Report:    192522      9.95   0.000   0.056   0.000
+
+           throughput =      38476.70 SPECjbb2005 bops 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Loading Warehouse 3...
+
+
+Start User Threads
+  started user thread for Warehouse 1
+  started user thread for Warehouse 2
+  started user thread for Warehouse 3
+Timing Measurement began Tue Jul 07 09:58:40 CDT 2009 for 0.5 minutes
+Timing Measurement ended Tue Jul 07 09:59:10 CDT 2009
+
+
+Calculating results
+
+Minimum transactions by a warehouse = 431029
+Maximum transactions by a warehouse = 450320
+Difference (thread spread) = 19291 (4.28%)
+
+===============================================================================
+TOTALS FOR: COMPANY with 3 warehouses                                   
+................. SPECjbb2005 1.07 Results (time in seconds) .................
+                   Count     Total    Min     Max     Avg    Heap Space
+    New Order:    584034     25.56   0.000   0.071   0.000   total      501.6MB
+      Payment:    402843      9.36   0.000   0.075   0.000    used      266.1MB
+  OrderStatus:     40285      1.30   0.000   0.054   0.000
+     Delivery:     40284     34.22   0.000   0.076   0.001
+  Stock Level:     40284      2.94   0.000   0.074   0.000
+  Cust Report:    221651     14.56   0.000   0.055   0.000
+
+           throughput =      44312.70 SPECjbb2005 bops 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Loading Warehouse 4...
+
+
+Start User Threads
+  started user thread for Warehouse 1
+  started user thread for Warehouse 2
+  started user thread for Warehouse 3
+  started user thread for Warehouse 4
+Timing Measurement began Tue Jul 07 09:59:11 CDT 2009 for 4 minutes
+Timing Measurement ended Tue Jul 07 10:03:11 CDT 2009
+
+
+Calculating results
+
+Minimum transactions by a warehouse = 2631843
+Maximum transactions by a warehouse = 2852124
+Difference (thread spread) = 220281 (7.72%)
+
+===============================================================================
+TOTALS FOR: COMPANY with 4 warehouses                                   
+................. SPECjbb2005 1.07 Results (time in seconds) .................
+                   Count     Total    Min     Max     Avg    Heap Space
+    New Order:   4864342    259.57   0.000   0.475   0.000   total      499.3MB
+      Payment:   3354620     92.06   0.000   0.475   0.000    used      256.7MB
+  OrderStatus:    335462     13.47   0.000   0.391   0.000
+     Delivery:    335462    387.28   0.000   0.431   0.001
+  Stock Level:    335461     32.05   0.000   0.429   0.000
+  Cust Report:   1844891    157.76   0.000   0.422   0.000
+
+           throughput =      46125.99 SPECjbb2005 bops 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Loading Warehouse 5...
+
+
+Start User Threads
+  started user thread for Warehouse 1
+  started user thread for Warehouse 2
+  started user thread for Warehouse 3
+  started user thread for Warehouse 4
+  started user thread for Warehouse 5
+Timing Measurement began Tue Jul 07 10:03:12 CDT 2009 for 4 minutes
+Timing Measurement ended Tue Jul 07 10:07:12 CDT 2009
+
+
+Calculating results
+
+Minimum transactions by a warehouse = 2043774
+Maximum transactions by a warehouse = 2186883
+Difference (thread spread) = 143109 (6.54%)
+
+===============================================================================
+TOTALS FOR: COMPANY with 5 warehouses                                   
+................. SPECjbb2005 1.07 Results (time in seconds) .................
+                   Count     Total    Min     Max     Avg    Heap Space
+    New Order:   4724768    324.39   0.000   0.564   0.000   total      497.7MB
+      Payment:   3257920    113.72   0.000   0.549   0.000    used      347.3MB
+  OrderStatus:    325790     15.93   0.000   0.473   0.000
+     Delivery:    325791    487.33   0.000   0.550   0.001
+  Stock Level:    325791     39.29   0.000   0.477   0.000
+  Cust Report:   1791067    195.45   0.000   0.528   0.000
+
+           throughput =      44795.62 SPECjbb2005 bops 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Loading Warehouse 6...
+
+
+Start User Threads
+  started user thread for Warehouse 1
+  started user thread for Warehouse 2
+  started user thread for Warehouse 3
+  started user thread for Warehouse 4
+  started user thread for Warehouse 5
+  started user thread for Warehouse 6
+Timing Measurement began Tue Jul 07 10:07:12 CDT 2009 for 4 minutes
+Timing Measurement ended Tue Jul 07 10:11:12 CDT 2009
+
+
+Calculating results
+
+Minimum transactions by a warehouse = 1564645
+Maximum transactions by a warehouse = 1758814
+Difference (thread spread) = 194169 (11.04%)
+
+===============================================================================
+TOTALS FOR: COMPANY with 6 warehouses                                   
+................. SPECjbb2005 1.07 Results (time in seconds) .................
+                   Count     Total    Min     Max     Avg    Heap Space
+    New Order:   4422320    399.53   0.000   0.618   0.000   total      495.4MB
+      Payment:   3049589    142.86   0.000   0.649   0.000    used      266.0MB
+  OrderStatus:    304959     19.01   0.000   0.572   0.000
+     Delivery:    304957    574.62   0.000   0.636   0.002
+  Stock Level:    304959     47.23   0.000   0.588   0.000
+  Cust Report:   1676856    230.47   0.000   0.620   0.000
+
+           throughput =      41931.83 SPECjbb2005 bops 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Loading Warehouse 7...
+
+
+Start User Threads
+  started user thread for Warehouse 1
+  started user thread for Warehouse 2
+  started user thread for Warehouse 3
+  started user thread for Warehouse 4
+  started user thread for Warehouse 5
+  started user thread for Warehouse 6
+  started user thread for Warehouse 7
+Timing Measurement began Tue Jul 07 10:11:13 CDT 2009 for 4 minutes
+Timing Measurement ended Tue Jul 07 10:15:13 CDT 2009
+
+
+Calculating results
+
+Minimum transactions by a warehouse = 1395532
+Maximum transactions by a warehouse = 1512115
+Difference (thread spread) = 116583 (7.71%)
+
+===============================================================================
+TOTALS FOR: COMPANY with 7 warehouses                                   
+................. SPECjbb2005 1.07 Results (time in seconds) .................
+                   Count     Total    Min     Max     Avg    Heap Space
+    New Order:   4500100    475.34   0.000   0.666   0.000   total      486.3MB
+      Payment:   3103291    170.84   0.000   0.636   0.000    used      358.8MB
+  OrderStatus:    310328     22.58   0.000   0.189   0.000
+     Delivery:    310327    659.60   0.000   0.670   0.002
+  Stock Level:    310330     55.06   0.000   0.664   0.000
+  Cust Report:   1706479    265.71   0.000   0.685   0.000
+
+           throughput =      42670.23 SPECjbb2005 bops 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Loading Warehouse 8...
+
+
+Start User Threads
+  started user thread for Warehouse 1
+  started user thread for Warehouse 2
+  started user thread for Warehouse 3
+  started user thread for Warehouse 4
+  started user thread for Warehouse 5
+  started user thread for Warehouse 6
+  started user thread for Warehouse 7
+  started user thread for Warehouse 8
+Timing Measurement began Tue Jul 07 10:15:13 CDT 2009 for 4 minutes
+Timing Measurement ended Tue Jul 07 10:19:13 CDT 2009
+
+
+Calculating results
+
+Minimum transactions by a warehouse = 1192764
+Maximum transactions by a warehouse = 1278810
+Difference (thread spread) = 86046 (6.73%)
+
+===============================================================================
+TOTALS FOR: COMPANY with 8 warehouses                                   
+................. SPECjbb2005 1.07 Results (time in seconds) .................
+                   Count     Total    Min     Max     Avg    Heap Space
+    New Order:   4375771    551.24   0.000   0.896   0.000   total      482.8MB
+      Payment:   3017143    188.87   0.000   0.785   0.000    used      389.4MB
+  OrderStatus:    301715     24.75   0.000   0.170   0.000
+     Delivery:    301712    761.53   0.000   0.786   0.003
+  Stock Level:    301713     64.39   0.000   0.720   0.000
+  Cust Report:   1658496    293.56   0.000   0.852   0.000
+
+           throughput =      41485.45 SPECjbb2005 bops 
+
+
+Calling Reporter
+SPECjbb2005 bops = 43402, SPECjbb2005 bops/JVM = 43402
+
+Neptune Ocean King Systems TurboBlaster 2
+Phobos Ltd Phobic Java 1.5.0
+SPEC license # 50,  Tested by: Neptune Corp.,  Test date: Jul 7, 2009
+
+Validity
+INVALID because benchmark recompiled or jbb.jar not first in CLASSPATH.
+
+                   SPEC scores                                                                                        
+     Warehouses               Thrput
+              1                20227
+              2                38477
+              3                44313
+            * 4                46126
+            * 5                44796
+            * 6                41932
+            * 7                42670
+            * 8                41485
+                                    
+Throughput      43402               
+
+HARDWARE                                            | SOFTWARE                                                         
+Vendor                    Neptune Ocean King        | Vendor               Phobos Ltd                                  
+                          Systems                   | Vendor URL           http://www.phobos.uk.co                     
+Vendor URL                http://www.neptune.com    | JVM Version          Phobic Java 1.5.0                           
+Model                     TurboBlaster 2            | Command Line         java -ms256m -mx1024m -spec.jbb.JBBmain     
+Processor                 ARM                       |                      -propfile Test1                             
+MHz                       300                       | Initial Heap Mem     256                                         
+# of Chips                1                         | (MB)                                     
+# of Cores                2                         | Max Heap Mem (MB)    1024                                        
+# of Cores/Chip           2                         | JVM addressing bits  32                                          
+HW Threading Enabled      No                        | JVM CLASSPATH        /root/asplos/apps/spec_jbb2005/check.jar:/ro
+Procs avail to Java       4                         |                      ot/asplos/apps/spec_jbb2005/jbb.jar:        
+Memory (MB)               4096                      | JVM BOOTCLASSPATH    /usr/lib/jvm/java-6-sun-1.6.0.07/jre/lib/amd
+Memory Details            punch cards               |                      64/server:/usr/lib/jvm/java-6-sun-1.6.0.07/j
+L1 Cache                  4KBI+4KBD                 |                      re/lib/amd64:/usr/lib/jvm/java-6-sun-1.6.0.0
+L2 Cache                  64KB(I+D) off chip        |                      7/jre/../lib/amd64::.:.:/usr/java/packages/l
+Other Cache                                         |                      ib/amd64:/lib:/usr/lib                      
+Filesystem                UFS                       | OS Version           Phobos DOS V33.333 patch-level 78           
+Disks                     1 x 4GB SCSI (classes) 1  | Other S/W            Neptune JIT Accelerator 2.3b6               
+                          x 12GB SCSI (OS)          |                                                                  
+Other H/W                 AT&T Rotary Telephone     | AOT Compilation Details                                          
+                                                    | <p>precompiled code                                              
+                                                    | for<ul><li>Deliverytransaction.process</li><li>TransactionManager
+                                                    | .go</li></ul>loaded at startup</p>                               
+                                                    |                                                                  
+                                                    | TUNING AND NOTES                                                 
+                                                    | Operating system                                                 
+                                                    | tunings<UL><LI>bufcache=1024</LI><LI>maxthreads_per_user=65536</L
+                                                    | I></UL>                                                          
+                                                    | "Notes here"                                                     
+                                                    |                                                                  
+                                                                                                                       
+TEST INFORMATION                     
+Tested by          Neptune Corp.     
+SPEC License       50                
+Test Location      Santa Monica, CA  
+Test Date          Jul 7, 2009       
+JVM available      Jan-2000          
+H/w available      Jan-2000          
+OS available       May-2000          
+Other s/w          Feb-2000          
+available                            
+*** Invalid Result
+This result is not valid for the following reason(s):
+INVALID because benchmark recompiled or jbb.jar not first in CLASSPATH.
+INVALID run; Score is 43402
+
+
+
+* Details of Runs
+
+  Wh.   Score     Tot.     Used  Thread elapsed Trans.           Count Resp. Time (s)
+                  Heap     Heap  spread  > 120s Type                   total max     
+                  (MB)     (MB)%       %                                             
+    1   20227      507      141   <0.01   <0.01 new_order       266630 8.98  .067    
+                                                payment         183883 3.46  .030    
+                                                order_status     18389 .418  <0.01   
+                                                delivery         18388 10.4  <0.01   
+                                                stock_level      18389 1.03  <0.01   
+                                                cust_report     101133 4.86  .035    
+    2   38477      505      238    2.56   <0.01 new_order       507058 18.3  .020    
+                                                payment         349786 6.84  .019    
+                                                order_status     34978 .884  <0.01   
+                                                delivery         34979 20.7  .057    
+                                                stock_level      34978 1.76  .010    
+                                                cust_report     192522 9.95  .056    
+    3   44313      502      266    4.28   <0.01 new_order       584034 25.6  .071    
+                                                payment         402843 9.36  .075    
+                                                order_status     40285 1.30  .054    
+                                                delivery         40284 34.2  .076    
+                                                stock_level      40284 2.94  .074    
+                                                cust_report     221651 14.6  .055    
+    4   46126      499      257    7.72   <0.01 new_order      4864342 260   .475    
+                                                payment        3354620 92.1  .475    
+                                                order_status    335462 13.5  .391    
+                                                delivery        335462 387   .431    
+                                                stock_level     335461 32.1  .429    
+                                                cust_report    1844891 158   .422    
+    5   44796      498      347    6.54   <0.01 new_order      4724768 324   .564    
+                                                payment        3257920 114   .549    
+                                                order_status    325790 15.9  .473    
+                                                delivery        325791 487   .550    
+                                                stock_level     325791 39.3  .477    
+                                                cust_report    1791067 195   .528    
+    6   41932      495      266    11.0   <0.01 new_order      4422320 400   .618    
+                                                payment        3049589 143   .649    
+                                                order_status    304959 19.0  .572    
+                                                delivery        304957 575   .636    
+                                                stock_level     304959 47.2  .588    
+                                                cust_report    1676856 230   .620    
+    7   42670      486      359    7.71   <0.01 new_order      4500100 475   .666    
+                                                payment        3103291 171   .636    
+                                                order_status    310328 22.6  .189    
+                                                delivery        310327 660   .670    
+                                                stock_level     310330 55.1  .664    
+                                                cust_report    1706479 266   .685    
+    8   41485      483      389    6.73   <0.01 new_order      4375771 551   .896    
+                                                payment        3017143 189   .785    
+                                                order_status    301715 24.7  .170    
+                                                delivery        301712 762   .786    
+                                                stock_level     301713 64.4  .720    
+                                                cust_report    1658496 294   .852    
+
+SPECjbb2005 Version: [SPECjbb2005 1.07, March 15, 2006]
+Reporting page (C) Copyright SPEC, 2005. All rights reserved
+
+Output files: results/SPECjbbSingleJVM/SPECjbb.003.txt, results/SPECjbbSingleJVM/SPECjbb.003.raw, results/SPECjbbSingleJVM/SPECjbb.003.html
+
+
+Reporter messages:
+INVALID because benchmark recompiled or jbb.jar not first in CLASSPATH.
+INVALID run; Score is  43402
+

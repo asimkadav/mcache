@@ -1,0 +1,8 @@
+Sep 25, 2009 8:02:58 AM spec.jbb.JBBmain main -> INFO: Logging started
+Sep 25, 2009 8:02:58 AM spec.jbb.Company primeWithDummyData -> INFO: Loading Warehouse 1...
+Sep 25, 2009 8:02:59 AM spec.jbb.JBBmain DoARun -> INFO: Start User Threads
+Sep 25, 2009 8:02:59 AM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 1
+Sep 25, 2009 8:02:59 AM spec.jbb.Company displayResultTotals -> INFO: Timing Measurement began Fri Sep 25 08:02:59 CDT 2009 for 0.5 minutes
+Sep 25, 2009 8:03:29 AM spec.jbb.Company displayResultTotals -> INFO: Timing Measurement ended Fri Sep 25 08:03:29 CDT 2009
+Sep 25, 2009 8:03:29 AM spec.jbb.JBBmain callReporter -> INFO: Calling Reporter
+Sep 25, 2009 8:03:30 AM spec.jbb.JBBmain main -> INFO: Logging ended

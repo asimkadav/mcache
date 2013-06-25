@@ -1,0 +1,208 @@
+Opened results/SPECjbbSingleJVM/SPECjbb.001.results
+Opened results/SPECjbbSingleJVM/SPECjbb.001.raw
+
+Licensed Materials - Property of SPEC
+SPECjbb2005
+Copyright (c) 2005 Standard Performance Evaluation Corporation (SPEC),All rights reserved,
+
+Benchmark SPECjbb2005 1.07 now Opening
+
+jar validity is true
+
+
+Checking whether run will be valid
+
+Run will be COMPLIANT
+
+Constructing the company now   Hang....on
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Loading Warehouse 1...
+
+
+Start User Threads
+  started user thread for Warehouse 1
+Timing Measurement began Tue Jul 07 09:29:43 CDT 2009 for 0.5 minutes
+Timing Measurement ended Tue Jul 07 09:30:13 CDT 2009
+
+
+Calculating results
+
+Minimum transactions by a warehouse = 591226
+Maximum transactions by a warehouse = 591226
+Difference (thread spread) = 0 (0%)
+
+===============================================================================
+TOTALS FOR: COMPANY with 1 warehouses                                   
+................. SPECjbb2005 1.07 Results (time in seconds) .................
+                   Count     Total    Min     Max     Avg    Heap Space
+    New Order:    259807      9.43   0.000   0.074   0.000   total      252.2MB
+      Payment:    179159      3.61   0.000   0.025   0.000    used      180.6MB
+  OrderStatus:     17916      0.50   0.000   0.005   0.000
+     Delivery:     17916      9.93   0.000   0.012   0.001
+  Stock Level:     17916      0.98   0.000   0.005   0.000
+  Cust Report:     98512      4.68   0.000   0.008   0.000
+
+           throughput =      19707.53 SPECjbb2005 bops 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Loading Warehouse 2...
+
+
+Start User Threads
+  started user thread for Warehouse 1
+  started user thread for Warehouse 2
+Timing Measurement began Tue Jul 07 09:30:13 CDT 2009 for 0.5 minutes
+Timing Measurement ended Tue Jul 07 09:30:43 CDT 2009
+
+
+Calculating results
+
+Minimum transactions by a warehouse = 549861
+Maximum transactions by a warehouse = 582259
+Difference (thread spread) = 32398 (5.56%)
+
+===============================================================================
+TOTALS FOR: COMPANY with 2 warehouses                                   
+................. SPECjbb2005 1.07 Results (time in seconds) .................
+                   Count     Total    Min     Max     Avg    Heap Space
+    New Order:    497406     19.20   0.000   0.061   0.000   total      249.4MB
+      Payment:    343066      7.02   0.000   0.046   0.000    used      179.3MB
+  OrderStatus:     34307      0.82   0.000   0.010   0.000
+     Delivery:     34306     19.70   0.000   0.277   0.001
+  Stock Level:     34307      1.63   0.000   0.015   0.000
+  Cust Report:    188728     10.20   0.000   0.276   0.000
+
+           throughput =      37737.33 SPECjbb2005 bops 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Loading Warehouse 3...
+
+
+Start User Threads
+  started user thread for Warehouse 1
+  started user thread for Warehouse 2
+  started user thread for Warehouse 3
+Timing Measurement began Tue Jul 07 09:30:43 CDT 2009 for 0.5 minutes
+Timing Measurement ended Tue Jul 07 09:31:13 CDT 2009
+
+
+Calculating results
+
+Minimum transactions by a warehouse = 358981
+Maximum transactions by a warehouse = 392876
+Difference (thread spread) = 33895 (8.63%)
+
+===============================================================================
+TOTALS FOR: COMPANY with 3 warehouses                                   
+................. SPECjbb2005 1.07 Results (time in seconds) .................
+                   Count     Total    Min     Max     Avg    Heap Space
+    New Order:    497824     26.77   0.000   0.337   0.000   total      248.1MB
+      Payment:    343208      9.03   0.000   0.302   0.000    used      196.2MB
+  OrderStatus:     34321      1.34   0.000   0.291   0.000
+     Delivery:     34321     32.54   0.000   0.333   0.001
+  Stock Level:     34321      2.46   0.000   0.321   0.000
+  Cust Report:    188599     15.40   0.000   0.337   0.000
+
+           throughput =      37753.13 SPECjbb2005 bops 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Loading Warehouse 4...
+
+
+Start User Threads
+  started user thread for Warehouse 1
+  started user thread for Warehouse 2
+  started user thread for Warehouse 3
+  started user thread for Warehouse 4
+Timing Measurement began Tue Jul 07 09:31:15 CDT 2009 for 4 minutes
+Timing Measurement ended Tue Jul 07 09:35:15 CDT 2009
+
+
+Calculating results
+
+Minimum transactions by a warehouse = 2270377
+Maximum transactions by a warehouse = 2437290
+Difference (thread spread) = 166913 (6.85%)
+
+===============================================================================
+TOTALS FOR: COMPANY with 4 warehouses                                   
+................. SPECjbb2005 1.07 Results (time in seconds) .................
+                   Count     Total    Min     Max     Avg    Heap Space
+    New Order:   4184418    285.60   0.000   0.471   0.000   total      241.2MB
+      Payment:   2886309     99.94   0.000   0.429   0.000    used      220.4MB
+  OrderStatus:    288631     12.38   0.000   0.078   0.000
+     Delivery:    288630    367.58   0.000   0.471   0.001
+  Stock Level:    288632     26.80   0.000   0.378   0.000
+  Cust Report:   1588205    149.34   0.000   0.428   0.000
+
+           throughput =      39686.77 SPECjbb2005 bops 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Loading Warehouse 5...
+
+
+Start User Threads
+  started user thread for Warehouse 1
+  started user thread for Warehouse 2
+  started user thread for Warehouse 3
+  started user thread for Warehouse 4
+  started user thread for Warehouse 5
+Timing Measurement began Tue Jul 07 09:35:15 CDT 2009 for 4 minutes
+Timing Measurement ended Tue Jul 07 09:39:15 CDT 2009
+
+
+Calculating results
+
+Minimum transactions by a warehouse = 267094
+Maximum transactions by a warehouse = 307506
+Difference (thread spread) = 40412 (13.14%)
+
+===============================================================================
+TOTALS FOR: COMPANY with 5 warehouses                                   
+................. SPECjbb2005 1.07 Results (time in seconds) .................
+                   Count     Total    Min     Max     Avg    Heap Space
+    New Order:    630988    418.68   0.000   0.948   0.001   total      241.3MB
+      Payment:    435123    156.24   0.000   1.369   0.000    used      206.9MB
+  OrderStatus:     43513     19.28   0.000   0.956   0.000
+     Delivery:     43511    367.30   0.000   0.996   0.008
+  Stock Level:     43512     27.88   0.000   0.924   0.001
+  Cust Report:    239260    192.50   0.000   0.952   0.001
+
+           throughput =       5977.54 SPECjbb2005 bops 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Loading Warehouse 6...
+
+
+Start User Threads
+  started user thread for Warehouse 1
+  started user thread for Warehouse 2
+  started user thread for Warehouse 3
+  started user thread for Warehouse 4
+  started user thread for Warehouse 5
+  started user thread for Warehouse 6
+Timing Measurement began Tue Jul 07 09:39:18 CDT 2009 for 4 minutes
+Exception in thread "Thread-21" java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at spec.jbb.CustomerReportTransaction.process(Unknown Source)
+	at spec.jbb.TransactionManager.runTxn(Unknown Source)
+	at spec.jbb.TransactionManager.goManual(Unknown Source)
+	at spec.jbb.TransactionManager.go(Unknown Source)
+	at spec.jbb.JBBmain.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:619)
+Exception in thread "Thread-19" java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at java.lang.StringBuilder.toString(StringBuilder.java:430)
+	at java.math.BigDecimal.layoutChars(BigDecimal.java:3112)
+	at java.math.BigDecimal.toString(BigDecimal.java:2669)
+	at spec.jbb.infra.Util.TransactionLogBuffer.putDollars(Unknown Source)
+	at spec.jbb.NewOrderTransaction.processTransactionLog(Unknown Source)
+	at spec.jbb.TransactionManager.runTxn(Unknown Source)
+	at spec.jbb.TransactionManager.goManual(Unknown Source)
+	at spec.jbb.TransactionManager.go(Unknown Source)

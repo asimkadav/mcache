@@ -1,0 +1,136 @@
+SPECjbb2005 bops = 13749, SPECjbb2005 bops/JVM = 13749
+
+Neptune Ocean King Systems TurboBlaster 2
+Phobos Ltd Phobic Java 1.5.0
+SPEC license # 50,  Tested by: Neptune Corp.,  Test date: Sep 22, 2009
+
+Validity
+ INVALID: for point 6, elapsed ms =324946.0 specified measurement interval seconds = 240.0.
+
+ elapsed / intended =135.39416666666668 > 115% 
+
+INVALID: measurement interval failing to end in close enough time limits.
+Warning: Missing point: 0 will used for point 5.
+Warning: Missing point: 0 will used for point 6.
+Warning: Missing point: 0 will used for point 7.
+
+                   SPEC scores                                                                                        
+     Warehouses               Thrput
+              1                18458
+              2                34223
+              3                39758
+            * 4                42945
+            * 8                25802
+             12                19115
+             16                 32.2
+                                    
+Throughput      13749               
+
+HARDWARE                                            | SOFTWARE                                                         
+Vendor                    Neptune Ocean King        | Vendor               Phobos Ltd                                  
+                          Systems                   | Vendor URL           http://www.phobos.uk.co                     
+Vendor URL                http://www.neptune.com    | JVM Version          Phobic Java 1.5.0                           
+Model                     TurboBlaster 2            | Command Line         java -ms256m -mx1024m -spec.jbb.JBBmain     
+Processor                 ARM                       |                      -propfile Test1                             
+MHz                       300                       | Initial Heap Mem     256                                         
+# of Chips                1                         | (MB)                                     
+# of Cores                2                         | Max Heap Mem (MB)    1024                                        
+# of Cores/Chip           2                         | JVM addressing bits  32                                          
+HW Threading Enabled      No                        | JVM CLASSPATH        ./jbb.jar:./check.jar:/root/asplos/apps/spec
+Procs avail to Java       4                         |                      _jbb2005/jbb.jar:/root/asplos/apps/spec_jbb2
+Memory (MB)               4096                      |                      005/check.jar:.:                            
+Memory Details            punch cards               | JVM BOOTCLASSPATH    /usr/lib/jvm/java-6-sun-1.6.0.07/jre/lib/amd
+L1 Cache                  4KBI+4KBD                 |                      64/server:/usr/lib/jvm/java-6-sun-1.6.0.07/j
+L2 Cache                  64KB(I+D) off chip        |                      re/lib/amd64:/usr/lib/jvm/java-6-sun-1.6.0.0
+Other Cache                                         |                      7/jre/../lib/amd64::.:/usr/java/packages/lib
+Filesystem                UFS                       |                      /amd64:/lib:/usr/lib                        
+Disks                     1 x 4GB SCSI (classes) 1  | OS Version           Phobos DOS V33.333 patch-level 78           
+                          x 12GB SCSI (OS)          | Other S/W            Neptune JIT Accelerator 2.3b6               
+Other H/W                 AT&T Rotary Telephone     |                                                                  
+                                                    | AOT Compilation Details                                          
+                                                    | <p>precompiled code                                              
+                                                    | for<ul><li>Deliverytransaction.process</li><li>TransactionManager
+                                                    | .go</li></ul>loaded at startup</p>                               
+                                                    |                                                                  
+                                                    | TUNING AND NOTES                                                 
+                                                    | Operating system                                                 
+                                                    | tunings<UL><LI>bufcache=1024</LI><LI>maxthreads_per_user=65536</L
+                                                    | I></UL>                                                          
+                                                    | "Notes here"                                                     
+                                                    |                                                                  
+                                                                                                                       
+TEST INFORMATION                     
+Tested by          Neptune Corp.     
+SPEC License       50                
+Test Location      Santa Monica, CA  
+Test Date          Sep 22, 2009      
+JVM available      Jan-2000          
+H/w available      Jan-2000          
+OS available       May-2000          
+Other s/w          Feb-2000          
+available                            
+*** Invalid Result
+This result is not valid for the following reason(s):
+ INVALID: for point 6, elapsed ms =324946.0 specified measurement interval seconds = 240.0.
+
+ elapsed / intended =135.39416666666668 > 115% 
+
+INVALID: measurement interval failing to end in close enough time limits.
+Warning: Missing point: 0 will used for point 5.
+Warning: Missing point: 0 will used for point 6.
+Warning: Missing point: 0 will used for point 7.
+INVALID run; Score is 13749
+
+
+
+* Details of Runs
+
+  Wh.   Score     Tot.     Used  Thread elapsed Trans.           Count Resp. Time (s)
+                  Heap     Heap  spread  > 120s Type                   total max     
+                  (MB)     (MB)%       %                                             
+    1   18458      990      241   <0.01   <0.01 new_order       243410 10.1  .135    
+                                                payment         167806 3.23  .083    
+                                                order_status     16780 .399  <0.01   
+                                                delivery         16779 9.90  .013    
+                                                stock_level      16780 .927  <0.01   
+                                                cust_report      92198 4.68  .013    
+    2   34223      990      206    1.08   <0.01 new_order       451399 20.7  .077    
+                                                payment         311124 6.44  .024    
+                                                order_status     31112 .930  .024    
+                                                delivery         31113 19.7  .101    
+                                                stock_level      31113 1.46  <0.01   
+                                                cust_report     170862 9.63  .101    
+    3   39758      990      341    2.92   <0.01 new_order       524020 29.5  .118    
+                                                payment         361450 8.87  .111    
+                                                order_status     36145 1.32  .055    
+                                                delivery         36145 31.7  .070    
+                                                stock_level      36145 2.38  .032    
+                                                cust_report     198880 14.6  .111    
+    4   42945      990      183    4.55    .012 new_order      4529529 299   .115    
+                                                payment        3123625 88.3  .096    
+                                                order_status    312364 12.7  .105    
+                                                delivery        312363 359   .113    
+                                                stock_level     312362 27.0  .065    
+                                                cust_report    1717721 158   .105    
+    8   25802      990      665    7.41    1.12 new_order      2751239 650   17.1    
+                                                payment        1897461 211   6.03    
+                                                order_status    189746 24.1  .554    
+                                                delivery        189745 671   17.1    
+                                                stock_level     189744 43.7  2.39    
+                                                cust_report    1043673 334   17.0    
+   12   19115     1041      699    99.9    7.38 new_order      2164534 2370  70.6    
+                                                payment        1492737 259   69.7    
+                                                order_status    149272 36.3  2.87    
+                                                delivery        149272 331   9.49    
+                                                stock_level     149272 38.6  1.74    
+                                                cust_report     820935 1023  75.5    
+   16    32.2     1478      649    99.7    35.4 new_order         4600 2916  324     
+                                                payment           3165 989   324     
+                                                order_status       318 10.1  5.20    
+                                                delivery           317 671   337     
+                                                stock_level        316 7.11  5.15    
+                                                cust_report       1742 1074  324     
+
+SPECjbb2005 Version: [SPECjbb2005 1.07, March 15, 2006]
+Reporting page (C) Copyright SPEC, 2005. All rights reserved
+

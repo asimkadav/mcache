@@ -1,0 +1,38 @@
+Sep 22, 2009 8:57:40 AM spec.jbb.JBBmain main -> INFO: Logging started
+Sep 22, 2009 8:57:40 AM spec.jbb.JBBmain main -> INFO: Running Multi-JVM Test: socket 1504
+Sep 22, 2009 8:57:50 AM spec.jbb.Company primeWithDummyData -> INFO: Loading Warehouse 1...
+Sep 22, 2009 8:57:51 AM spec.jbb.JBBmain DoARun -> INFO: Start User Threads
+Sep 22, 2009 8:57:51 AM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 1
+Sep 22, 2009 8:57:51 AM spec.jbb.Company displayResultTotals -> INFO: >>>>>>>> Got Message: 4:START
+Sep 22, 2009 8:57:51 AM spec.jbb.Company displayResultTotals -> INFO: User Thread Multi-JVM Rampup padding began Tue Sep 22 08:57:51 CDT 2009 for 3 seconds
+Sep 22, 2009 8:57:54 AM spec.jbb.Company displayResultTotals -> INFO: Timing Measurement began Tue Sep 22 08:57:54 CDT 2009 for 4 minutes
+Sep 22, 2009 9:01:54 AM spec.jbb.Company displayResultTotals -> INFO: Timing Measurement ended Tue Sep 22 09:01:54 CDT 2009
+Sep 22, 2009 9:01:54 AM spec.jbb.Company displayResultTotals -> INFO: User Thread Multi-JVM Rampdown padding began Tue Sep 22 09:01:54 CDT 2009 for 20 seconds
+Sep 22, 2009 9:02:14 AM spec.jbb.Company primeWithDummyData -> INFO: Loading Warehouse 2...
+Sep 22, 2009 9:02:14 AM spec.jbb.JBBmain DoARun -> INFO: Start User Threads
+Sep 22, 2009 9:02:14 AM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 1
+Sep 22, 2009 9:02:14 AM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 2
+Sep 22, 2009 9:02:15 AM spec.jbb.Company displayResultTotals -> INFO: >>>>>>>> Got Message: 4:START
+Sep 22, 2009 9:02:15 AM spec.jbb.Company displayResultTotals -> INFO: User Thread Multi-JVM Rampup padding began Tue Sep 22 09:02:15 CDT 2009 for 3 seconds
+Sep 22, 2009 9:02:18 AM spec.jbb.Company displayResultTotals -> INFO: Timing Measurement began Tue Sep 22 09:02:18 CDT 2009 for 4 minutes
+Sep 22, 2009 9:06:21 AM spec.jbb.Company displayResultTotals -> INFO: Timing Measurement ended Tue Sep 22 09:06:21 CDT 2009
+Sep 22, 2009 9:06:21 AM spec.jbb.Company displayResultTotals -> INFO: User Thread Multi-JVM Rampdown padding began Tue Sep 22 09:06:21 CDT 2009 for 20 seconds
+Sep 22, 2009 9:06:42 AM spec.jbb.Company primeWithDummyData -> INFO: Loading Warehouse 3...
+Sep 22, 2009 9:06:42 AM spec.jbb.JBBmain DoARun -> INFO: Start User Threads
+Sep 22, 2009 9:06:42 AM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 1
+Sep 22, 2009 9:06:42 AM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 2
+Sep 22, 2009 9:06:42 AM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 3
+Sep 22, 2009 9:06:42 AM spec.jbb.Company displayResultTotals -> INFO: >>>>>>>> Got Message: 4:START
+Sep 22, 2009 9:06:42 AM spec.jbb.Company displayResultTotals -> INFO: User Thread Multi-JVM Rampup padding began Tue Sep 22 09:06:42 CDT 2009 for 3 seconds
+Sep 22, 2009 9:06:45 AM spec.jbb.Company displayResultTotals -> INFO: Timing Measurement began Tue Sep 22 09:06:45 CDT 2009 for 4 minutes
+Sep 22, 2009 9:10:45 AM spec.jbb.Company displayResultTotals -> INFO: Timing Measurement ended Tue Sep 22 09:10:45 CDT 2009
+Sep 22, 2009 9:10:45 AM spec.jbb.Company displayResultTotals -> INFO: User Thread Multi-JVM Rampdown padding began Tue Sep 22 09:10:45 CDT 2009 for 20 seconds
+Sep 22, 2009 9:11:15 AM spec.jbb.Company primeWithDummyData -> INFO: Loading Warehouse 4...
+Sep 22, 2009 9:11:16 AM spec.jbb.JBBmain DoARun -> INFO: Start User Threads
+Sep 22, 2009 9:11:16 AM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 1
+Sep 22, 2009 9:11:16 AM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 2
+Sep 22, 2009 9:11:16 AM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 3
+Sep 22, 2009 9:11:16 AM spec.jbb.JBBmain DoARun -> INFO:   started user thread for Warehouse 4
+Sep 22, 2009 9:11:34 AM spec.jbb.Company displayResultTotals -> INFO: >>>>>>>> Got Message: 4:START
+Sep 22, 2009 9:11:34 AM spec.jbb.Company displayResultTotals -> INFO: User Thread Multi-JVM Rampup padding began Tue Sep 22 09:11:34 CDT 2009 for 3 seconds
+Sep 22, 2009 9:11:37 AM spec.jbb.Company displayResultTotals -> INFO: Timing Measurement began Tue Sep 22 09:11:37 CDT 2009 for 4 minutes
