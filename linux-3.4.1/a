@@ -1,0 +1,50 @@
+45d44
+< #include <linux/cleancache.h> //ASIM
+1359c1358
+< //ASIM what does this do?
+---
+> 
+1383,1384d1381
+< 		// Here is where you putback cleancache pages.
+< 		// ASIM
+1397,1398c1394
+< 			// ASIM
+< 			//cleancache_invalidate_page(page->mapping, page);
+---
+> 
+1505d1500
+< // ASIM store the clean pages of inactive list in clean-cache.
+1700,1701d1694
+< 	
+< 	static int nr_cold_page = 0; //ASIM
+1763,1765d1755
+< 		
+< 		ClearPageActive(page);	/* we are de-activating */
+< 		list_add(&page->lru, &l_inactive); 
+1767,1789c1757,1758
+< 		/*
+< 		//ASIM		
+< 		if (PageUptodate(page) && PageMappedToDisk(page) && !PageActive(page))	{
+< 			if (!PageLocked(page))	{
+< 				lock_page(page);
+< 				local_irq_disable();
+< 				cleancache_put_page(page);
+< 				local_irq_enable();
+< 				// force retreival from cleancache
+< 				//ClearPageMappedToDisk(page);
+< 				if (invalidate_inode_page(page) == 1)	{
+< 					if ((nr_cold_page++%1000) == 0)
+< 					printk ("%d pages invalidated.\n", nr_cold_page);
+< 				}	
+< 				unlock_page(page);
+< 				//invalidate_inode_page(page);releases page	
+< 			}
+< 		}
+< 		else	{
+< 			list_add(&page->lru, &l_inactive);
+< 		}
+< 		// ASIM END
+< 		*/
+---
+> 		ClearPageActive(page);	/* we are de-activating */
+> 		list_add(&page->lru, &l_inactive);

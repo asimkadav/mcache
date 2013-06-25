@@ -1,0 +1,10 @@
+Oct 30 14:07:16 adsl-s04 kernel: [   21.406982] Memory allocation failed.
+Oct 30 14:07:16 adsl-s04 kernel: [   21.407080] Memory allocation failed.
+Oct 30 14:07:16 adsl-s04 kernel: [   21.428443] Memory allocation failed.
+Oct 30 14:07:16 adsl-s04 kernel: [   21.428547] Memory allocation failed.
+Oct 30 14:07:16 adsl-s04 kernel: [   21.428646] Memory allocation failed.
+Oct 30 14:07:16 adsl-s04 kernel: [   21.428744] Memory allocation failed.
+Oct 30 14:07:16 adsl-s04 kernel: [   21.428876] Memory allocation failed.
+Oct 30 14:07:16 adsl-s04 kernel: [   21.450396] Memory allocation failed.
+Oct 30 14:07:16 adsl-s04 kernel: [   21.450399] ****LAST WATERMARK SET AS 284830 .
+Oct 30 14:07:16 adsl-s04 kernel: [   21.450400] low:high:copy:total 109:19:0

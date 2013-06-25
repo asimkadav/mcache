@@ -1,0 +1,114 @@
+#define COLDMEM_MAP_MAX_PAGES 1024
+#define COLDMEM_MAX_POOLS 8
+#define MAX_PASR_POOLS_PER_DIMM 8
+
+
+void *pasr_pools[MAX_PASR_POOLS_PER_DIMM];
+static char cold_pages_map[COLDMEM_MAP_MAX_PAGES][MAX_PASR_POOLS_PER_DIMM];
+static spinlock_t cold_pages_lock;
+static void *coldmem_pages;
+static void *mcache_pools[COLDMEM_MAX_POOLS];
+
+
+static void * zcache_get_coldmempage(int * poolid)
+{
+
+	int i = 0;
+	int kmap_fetch = 0;
+	static int current_pool = 0;
+	int start_pool = current_pool;
+	spin_lock(&cold_pages_lock);
+
+retry_allocation:
+	i = 0;
+	while (cold_pages_map[i][current_pool] != 0)  {
+		i++;
+	}
+
+
+	if (i > COLDMEM_MAP_MAX_PAGES)  {
+		printk ("zcache: memory allocation failed.\n");
+		current_pool= (current_pool+1)%MAX_PASR_POOLS_PER_DIMM;
+		if (current_pool > MAX_PASR_POOLS_PER_DIMM)	{
+			printk ("zcache:memory allocation failed.\n");
+			return NULL;	
+		}
+		printk ("Will now try allocating from pool %d.\n", current_pool);
+		goto retry_allocation;	
+	}
+
+
+	cold_pages_map[i][current_pool] = 1;
+	spin_unlock(&cold_pages_lock);
+
+	return (void *) page_address((i*1024*4 +(char *)mcache_pools[current_pool]));
+
+}
+
+
+static void * zcache_reserve_coldmemory(void)
+{
+        void * pages = (void *)alloc_pages (GFP_HIGHUSER, 14);
+	int i = 0;
+
+	
+	if (pages == NULL)	{
+		printk("Memory allocation failed.\n");
+        	return NULL;
+	}
+
+	coldmem_pages = pages;
+	
+        return pages;
+}
+
+static void zcache_put_coldmempage(void * addr)
+{
+        int index = ((char *) addr - (char *) coldmem_pages)/1024;
+
+        if ((index <0) || (index > COLDMEM_MAP_MAX_PAGES))
+                return;
+
+        spin_lock(&cold_pages_lock);
+        cold_pages_map[index] = 0;
+        spin_unlock(&cold_pages_lock);
+        return;
+}
+
+void zcache_lowmem_release_pool(void)
+{
+
+
+
+
+}
+
+
+
+void zcache_create_memory_pools(void)
+{
+
+        int i,j = 0;
+
+	for (i=0; i< MAX_PASR_POOLS_PER_DIMM; i++)    {
+		pasr_pools[i] = NULL;
+		for (j=0; j< COLDMEM_MAP_MAX_PAGES; j++)
+			cold_pages_map[i][j] = 0;
+
+
+	}
+
+
+        for (i=0; i< 7; i++)	{
+                pasr_pools[i] = zcache_reserve_coldmemory();
+		printk ("allocated pool %d: %p \n", i, pasr_pools[i]);
+	}
+
+
+}
+
+void zcache_release_memory_pools(void)
+{
+
+
+}

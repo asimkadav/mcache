@@ -1,0 +1,131 @@
+88a89,98
+> extern void drop_slab();
+> extern void iterate_supers(void (*f)(struct super_block *, void *), void *arg);
+> extern void drop_pagecache_sb(struct super_block *sb, void *unused);
+> void zcache_drop_all_caches()
+> {
+>     iterate_supers(drop_pagecache_sb, NULL);
+>     drop_slab();
+> }
+> 
+> EXPORT_SYMBOL(zcache_drop_all_caches);
+448a459,464
+>         mb();
+>         if (zbpg == NULL)   {
+>             printk ("**PANIC:system low on atomic memory");
+>             return NULL;
+>         }    
+>         zbpg->poolid = *poolid;
+450d465
+< 		zbpg->poolid = *poolid;
+1619,1622c1634,1637
+< 		if (page == NULL)	{
+< 			printk ("mcache:`Page allocation failed used:%lu mem_map:%lu  alloc fail so far %lu.\n", zbud_show_unbuddied_count(), zcache_free_memory(ZONE_NORMAL), zcache_failed_get_free_pages);
+< 			zbud_evict_pages(3000);
+< 		}
+---
+> 		//if (page == NULL)	{
+> 		  //  printk ("mcache:`Page allocation failed used:%lu mem_map:%lu  alloc fail so far %lu.\n", zbud_show_unbuddied_count(), zcache_free_memory(ZONE_NORMAL), zcache_failed_get_free_pages);
+> 			//zbud_evict_pages(3000);
+> 	   // }
+1639c1654
+< 		zbud_evict_pages(32768);
+---
+> 		//zbud_evict_pages(32768);
+1686c1701
+< 	//BUG_ON(page == NULL);
+---
+> 	BUG_ON(page == NULL);
+1813a1829,1830
+> 
+> 
+1814a1832
+> 
+1816,1817c1834,1836
+<                 cdata = kmap_atomic(page);
+<                 clen = PAGE_SIZE;
+---
+>         cdata = kmap_atomic(page);
+>         clen = PAGE_SIZE;
+>         mb();
+1831c1850
+< 		kunmap_atomic(cdata);
+---
+>         kunmap_atomic(cdata);
+1833,1834d1851
+< 		if (pampd == NULL)
+< 			goto out;
+1836,1842c1853,1865
+< #ifdef ZCACHE_LOW_POWER
+< 		/* no checksum on adsl-q08 */
+< 		ret = zcache_checksum(page, &cdata, &clen, &((struct zbud_hdr *) pampd)->digest);
+< 		if (ret == 0)
+<                         goto out;
+< 		
+< #endif        
+---
+>         if (pampd == NULL)
+>             goto out;
+> 
+> #ifdef ZCACHE_LOW_REFRESH        
+>         ((struct zbud_hdr *) pampd)->digest = crc32c(0, cdata, PAGE_SIZE);
+>         //ret = zcache_checksum(page, &cdata, &clen, &((struct zbud_hdr *) pampd)->digest);
+>         //if (ret == 0)
+>         //  goto out;
+> #else
+>         zbpg->digest = 0; //no checksum on q08        
+> #endif	
+> 
+> 
+1844d1866
+< 		zbpg->digest = 0; //no checksum on q08
+1904a1927,1937
+> static unsigned long zcache_total_copies = 0;
+> 
+> static unsigned long zcache_get_and_reset_copy_count()
+> {
+>   unsigned long tc = zcache_total_copies;
+>   zcache_total_copies = 0;  
+>   return tc;
+> }
+> 
+> EXPORT_SYMBOL(zcache_get_and_reset_copy_count);
+> 
+1925a1959
+>     zcache_total_copies++; //ASIM
+1931a1966,1968
+>     newdigest = 0;
+> #ifdef ZCACHE_LOW_REFRESH
+> 	newdigest = crc32c(0, to_va, PAGE_SIZE); 
+1933,1939c1970
+< #ifdef ZCACHE_LOW_POWER    
+< 	//newdigest = crc32c(0, to_va, PAGE_SIZE); no checksum on q08
+< #else    
+< 	newdigest = 0;
+< #endif    
+< 
+< 
+---
+>     
+1943a1975,1978
+>     
+> #endif    
+>     
+> 
+2034a2070
+>         
+2286,2287c2322,2325
+< 		if (1)
+< 			zbud_evict_pages(nr*20);
+---
+> 		if (1) {
+>             ;
+> 			//zbud_evict_pages(nr); do nothing, we follow pool level eviction
+>         }    
+2304c2342,2343
+< 	ret = zcache_used_memory(ZONE_NORMAL) + zcache_free_memory(ZONE_NORMAL);
+---
+> 	ret = zcache_used_memory(ZONE_NORMAL);
+>     ret = 0;
+2799a2839
+> 
